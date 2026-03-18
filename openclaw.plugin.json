@@ -29,6 +29,6 @@
         "description": "Public webhook URL for Microsoft Graph subscriptions"
       }
     },
-    "required": ["clientId", "tenantId", "tokenFile", "webhookUrl"]
+    "required": []
   }
 }
