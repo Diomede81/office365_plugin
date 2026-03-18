@@ -1,0 +1,31 @@
+{
+  "name": "@openclaw/office365",
+  "version": "1.0.0",
+  "description": "Office 365 channel plugin for OpenClaw - Teams, Outlook, Calendar integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "office365",
+    "teams",
+    "outlook",
+    "microsoft",
+    "plugin"
+  ],
+  "author": "Luca Licata",
+  "license": "MIT",
+  "peerDependencies": {
+    "openclaw": ">=2026.3.0"
+  },
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diomede81/office365_plugin.git"
+  }
+}
