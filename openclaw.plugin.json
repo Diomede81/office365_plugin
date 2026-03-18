@@ -9,7 +9,7 @@
   "main": "index.js",
   "type": "channel",
   "channels": ["teams"],
-  "config": {
+  "configSchema": {
     "type": "object",
     "properties": {
       "clientId": {
