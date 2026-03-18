@@ -4,6 +4,9 @@
   "description": "Office 365 channel plugin for OpenClaw - Teams, Outlook, Calendar integration",
   "main": "index.js",
   "type": "module",
+  "openclaw": {
+    "extensions": ["./index.js"]
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
